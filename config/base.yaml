@@ -1,0 +1,13 @@
+app:
+  strategy: fifo  # matched or fifo
+  arrivalTimes:
+    min: 3s
+    max: 15s
+  logging:
+    level: debug
+    development: true
+    encoding: console
+    outputPaths:
+      - stdout
+    errorOutputPaths:
+      - stderr
